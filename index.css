@@ -10,7 +10,8 @@ body{
     height: 50%;
     width: 60%;
     background-image: url("img_1.jpg");
-    background-size: contain;
+    background-size:cover;
+    /* object-fit: cover; */
     color: aliceblue;
     display: flex;
     flex-wrap: wrap;
