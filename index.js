@@ -23,7 +23,7 @@ function go(x,y){
     para.style.scale="1";
     a.appendChild(para);
     var b=setInterval(function(){
-        if(k>=50){
+        if(k>=80){
             document.getElementById("one").remove();
             k=1;
             clearInterval(b);
